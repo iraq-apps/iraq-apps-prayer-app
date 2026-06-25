@@ -1,0 +1,19 @@
+name: prayer_app
+description: مواقيت الصلاة للعراق
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  adhan: ^2.0
+  intl: ^0.19.0
+  geolocator: ^11.0.0
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+
+flutter:
+  uses-material-design: true
